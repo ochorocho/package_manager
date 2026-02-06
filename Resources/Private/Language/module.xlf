@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="messages" date="2026-04-16T00:00:00Z" product-name="package_manager">
+        <header/>
+        <body>
+            <!-- Shell: tabs + refresh -->
+            <trans-unit id="tab.installed"><source>Installed Packages</source></trans-unit>
+            <trans-unit id="tab.search"><source>Search Registry</source></trans-unit>
+            <trans-unit id="tab.composer"><source>Composer Info</source></trans-unit>
+            <trans-unit id="tab.dependencies"><source>Dependency Tree</source></trans-unit>
+            <trans-unit id="tab.repositories"><source>Repositories</source></trans-unit>
+            <trans-unit id="shell.refresh"><source>Refresh</source></trans-unit>
+            <trans-unit id="shell.refresh.title"><source>Refresh packages</source></trans-unit>
+            <trans-unit id="shell.refresh.success"><source>Packages refreshed</source></trans-unit>
+            <trans-unit id="shell.refresh.error"><source>Failed to refresh packages</source></trans-unit>
+
+            <!-- Common notifications -->
+            <trans-unit id="notification.success"><source>Success</source></trans-unit>
+            <trans-unit id="notification.warning"><source>Warning</source></trans-unit>
+            <trans-unit id="notification.error"><source>Error</source></trans-unit>
+
+            <!-- Installed tab -->
+            <trans-unit id="installed.loading"><source>Loading installed packages...</source></trans-unit>
+            <trans-unit id="installed.load.error"><source>Failed to load installed packages</source></trans-unit>
+            <trans-unit id="installed.card.title"><source>Installed Extensions</source></trans-unit>
+            <trans-unit id="installed.card.subtitle"><source>%s extensions</source></trans-unit>
+            <trans-unit id="installed.empty"><source>No TYPO3 extensions installed via Composer</source></trans-unit>
+            <trans-unit id="installed.updates.checking"><source>Checking for updates…</source></trans-unit>
+            <trans-unit id="installed.updates.button"><source>Check for updates</source></trans-unit>
+            <trans-unit id="installed.updates.button.title"><source>Check for updates (bypass cache)</source></trans-unit>
+            <trans-unit id="installed.updates.error"><source>Update check failed. Packages are listed but update availability is unknown.</source></trans-unit>
+            <trans-unit id="installed.column.package"><source>Package</source></trans-unit>
+            <trans-unit id="installed.column.version"><source>Version</source></trans-unit>
+            <trans-unit id="installed.column.description"><source>Description</source></trans-unit>
+            <trans-unit id="installed.badge.protected"><source>Protected</source></trans-unit>
+            <trans-unit id="installed.badge.update"><source>Update</source></trans-unit>
+            <trans-unit id="installed.badge.update.title"><source>Update available: %s</source></trans-unit>
+            <trans-unit id="installed.action.details"><source>Show package details</source></trans-unit>
+            <trans-unit id="installed.action.update.title"><source>Update to %s</source></trans-unit>
+            <trans-unit id="installed.action.remove.title"><source>Remove package</source></trans-unit>
+
+            <!-- Search tab -->
+            <trans-unit id="search.input.placeholder"><source>Search packages across all repositories...</source></trans-unit>
+            <trans-unit id="search.input.hint"><source>Enter at least 2 characters to search</source></trans-unit>
+            <trans-unit id="search.placeholder.title"><source>Search TYPO3 Extensions</source></trans-unit>
+            <trans-unit id="search.placeholder.body"><source>Enter at least 2 characters to search across all configured repositories and Packagist.</source></trans-unit>
+            <trans-unit id="search.results.title"><source>Search Results</source></trans-unit>
+            <trans-unit id="search.results.loading"><source>Searching repositories...</source></trans-unit>
+            <trans-unit id="search.results.empty"><source>No packages found for "%s"</source></trans-unit>
+            <trans-unit id="search.results.subtitle"><source>%s packages found</source></trans-unit>
+            <trans-unit id="search.results.badge.installed"><source>Installed %s</source></trans-unit>
+            <trans-unit id="search.column.package"><source>Package</source></trans-unit>
+            <trans-unit id="search.column.description"><source>Description</source></trans-unit>
+            <trans-unit id="search.column.source"><source>Source</source></trans-unit>
+            <trans-unit id="search.action.install"><source>Install</source></trans-unit>
+            <trans-unit id="search.action.install.title"><source>Install package</source></trans-unit>
+            <trans-unit id="search.action.update.title"><source>Update package</source></trans-unit>
+            <trans-unit id="search.pagination.first"><source>First</source></trans-unit>
+            <trans-unit id="search.pagination.previous"><source>Previous</source></trans-unit>
+            <trans-unit id="search.pagination.next"><source>Next</source></trans-unit>
+            <trans-unit id="search.pagination.last"><source>Last</source></trans-unit>
+            <trans-unit id="search.error"><source>Search failed</source></trans-unit>
+            <trans-unit id="search.suggestions.modal.title"><source>Install %s</source></trans-unit>
+            <trans-unit id="search.suggestions.intro"><source>You are about to install %s.</source></trans-unit>
+            <trans-unit id="search.suggestions.heading"><source>Suggested Packages (Optional)</source></trans-unit>
+            <trans-unit id="search.suggestions.description"><source>These packages enhance %s but are not required:</source></trans-unit>
+            <trans-unit id="search.suggestions.install"><source>Install</source></trans-unit>
+
+            <!-- Composer Info tab -->
+            <trans-unit id="composerInfo.loading"><source>Loading composer info...</source></trans-unit>
+            <trans-unit id="composerInfo.load.hint"><source>Click the tab to load composer information.</source></trans-unit>
+            <trans-unit id="composerInfo.binary.title"><source>Composer Binary</source></trans-unit>
+            <trans-unit id="composerInfo.binary.status"><source>Status</source></trans-unit>
+            <trans-unit id="composerInfo.binary.status.available"><source>Available</source></trans-unit>
+            <trans-unit id="composerInfo.binary.status.notFound"><source>Not Found</source></trans-unit>
+            <trans-unit id="composerInfo.binary.version"><source>Version</source></trans-unit>
+            <trans-unit id="composerInfo.binary.path"><source>Binary Path</source></trans-unit>
+            <trans-unit id="composerInfo.binary.foundVia"><source>Found via</source></trans-unit>
+            <trans-unit id="composerInfo.binary.composerHome"><source>COMPOSER_HOME</source></trans-unit>
+            <trans-unit id="composerInfo.binary.phpVersion"><source>PHP Version</source></trans-unit>
+            <trans-unit id="composerInfo.binary.projectPath"><source>Project Path</source></trans-unit>
+            <trans-unit id="composerInfo.diagnostics.title"><source>Diagnostics</source></trans-unit>
+            <trans-unit id="composerInfo.diagnostics.composerJson"><source>composer.json</source></trans-unit>
+            <trans-unit id="composerInfo.diagnostics.composerLock"><source>composer.lock</source></trans-unit>
+            <trans-unit id="composerInfo.diagnostics.status.present"><source>Present</source></trans-unit>
+            <trans-unit id="composerInfo.diagnostics.status.missing"><source>Missing</source></trans-unit>
+            <trans-unit id="composerInfo.diagnostics.status.upToDate"><source>Up to date</source></trans-unit>
+            <trans-unit id="composerInfo.diagnostics.status.outdated"><source>Outdated</source></trans-unit>
+            <trans-unit id="composerInfo.diagnostics.platform"><source>Platform Packages</source></trans-unit>
+            <trans-unit id="composerInfo.protected.title"><source>Protected Packages</source></trans-unit>
+            <trans-unit id="composerInfo.protected.subtitle"><source>Cannot be removed to protect system stability</source></trans-unit>
+            <trans-unit id="composerInfo.callout.title"><source>Better safe than sorry</source></trans-unit>
+            <trans-unit id="composerInfo.callout.body"><source>All package operations run a dry-run first to preview changes before execution. Review the preview carefully before confirming any operation.</source></trans-unit>
+            <trans-unit id="composerInfo.load.error"><source>Failed to load composer info</source></trans-unit>
+
+            <!-- Dependency Tree tab -->
+            <trans-unit id="dependencyTree.loading"><source>Loading dependency tree...</source></trans-unit>
+            <trans-unit id="dependencyTree.load.hint"><source>Click the tab to load dependency tree.</source></trans-unit>
+            <trans-unit id="dependencyTree.title"><source>Dependency Tree</source></trans-unit>
+            <trans-unit id="dependencyTree.subtitle"><source>%s packages</source></trans-unit>
+            <trans-unit id="dependencyTree.expandAll"><source>Expand All</source></trans-unit>
+            <trans-unit id="dependencyTree.expandAll.title"><source>Expand all nodes</source></trans-unit>
+            <trans-unit id="dependencyTree.level1"><source>Level 1</source></trans-unit>
+            <trans-unit id="dependencyTree.level1.title"><source>Expand first level only</source></trans-unit>
+            <trans-unit id="dependencyTree.collapse"><source>Collapse</source></trans-unit>
+            <trans-unit id="dependencyTree.collapse.title"><source>Collapse all nodes</source></trans-unit>
+            <trans-unit id="dependencyTree.ariaLabel"><source>Package dependency tree</source></trans-unit>
+            <trans-unit id="dependencyTree.deps.one"><source>%s dep</source></trans-unit>
+            <trans-unit id="dependencyTree.deps.other"><source>%s deps</source></trans-unit>
+            <trans-unit id="dependencyTree.load.error"><source>Failed to load dependency tree</source></trans-unit>
+
+            <!-- Repositories tab -->
+            <trans-unit id="repositories.loading"><source>Loading repositories...</source></trans-unit>
+            <trans-unit id="repositories.title"><source>Configured Repositories</source></trans-unit>
+            <trans-unit id="repositories.subtitle"><source>%s repositories</source></trans-unit>
+            <trans-unit id="repositories.empty"><source>No custom repositories configured. Using Packagist as default.</source></trans-unit>
+            <trans-unit id="repositories.column.name"><source>Name</source></trans-unit>
+            <trans-unit id="repositories.column.type"><source>Type</source></trans-unit>
+            <trans-unit id="repositories.column.url"><source>URL / Path</source></trans-unit>
+            <trans-unit id="repositories.action.add"><source>Add Repository</source></trans-unit>
+            <trans-unit id="repositories.action.remove.title"><source>Remove repository</source></trans-unit>
+            <trans-unit id="repositories.load.error"><source>Failed to load repositories</source></trans-unit>
+
+            <!-- Authentication sub-section -->
+            <trans-unit id="auth.title"><source>Authentication</source></trans-unit>
+            <trans-unit id="auth.subtitle"><source>Credentials stored in project auth.json</source></trans-unit>
+            <trans-unit id="auth.empty"><source>No credentials configured.</source></trans-unit>
+            <trans-unit id="auth.column.host"><source>Host</source></trans-unit>
+            <trans-unit id="auth.column.type"><source>Type</source></trans-unit>
+            <trans-unit id="auth.action.add"><source>Add Credentials</source></trans-unit>
+            <trans-unit id="auth.action.remove.title"><source>Remove credentials</source></trans-unit>
+
+            <!-- Add / Remove Repository modal -->
+            <trans-unit id="modal.addRepo.title"><source>Add Repository</source></trans-unit>
+            <trans-unit id="modal.addRepo.name"><source>Repository Name</source></trans-unit>
+            <trans-unit id="modal.addRepo.name.placeholder"><source>my-private-repo</source></trans-unit>
+            <trans-unit id="modal.addRepo.name.hint"><source>Alphanumeric, hyphens, and underscores only. Used as identifier in composer.json.</source></trans-unit>
+            <trans-unit id="modal.addRepo.type"><source>Type</source></trans-unit>
+            <trans-unit id="modal.addRepo.type.vcs"><source>VCS (Git, SVN, Hg)</source></trans-unit>
+            <trans-unit id="modal.addRepo.type.composer"><source>Composer (Private Packagist, Satis)</source></trans-unit>
+            <trans-unit id="modal.addRepo.type.path"><source>Path (Local directory)</source></trans-unit>
+            <trans-unit id="modal.addRepo.type.artifact"><source>Artifact (ZIP files)</source></trans-unit>
+            <trans-unit id="modal.addRepo.url"><source>URL / Path</source></trans-unit>
+            <trans-unit id="modal.addRepo.url.placeholder"><source>https://github.com/vendor/repo.git</source></trans-unit>
+            <trans-unit id="modal.addRepo.url.hint"><source>For VCS: repository URL. For Composer: registry URL. For Path/Artifact: local directory path.</source></trans-unit>
+            <trans-unit id="modal.addRepo.validation.required"><source>Name and URL are required</source></trans-unit>
+            <trans-unit id="modal.addRepo.validation.namePattern"><source>Repository name must contain only letters, numbers, hyphens, and underscores</source></trans-unit>
+            <trans-unit id="modal.addRepo.success"><source>Repository "%s" added successfully</source></trans-unit>
+            <trans-unit id="modal.addRepo.error"><source>Failed to add repository</source></trans-unit>
+            <trans-unit id="modal.removeRepo.title"><source>Remove Repository</source></trans-unit>
+            <trans-unit id="modal.removeRepo.confirm"><source>Are you sure you want to remove repository "%s"?</source></trans-unit>
+            <trans-unit id="modal.removeRepo.success"><source>Repository "%s" removed</source></trans-unit>
+            <trans-unit id="modal.removeRepo.error"><source>Failed to remove repository</source></trans-unit>
+
+            <!-- Authentication modal -->
+            <trans-unit id="modal.auth.title"><source>Add Authentication Credentials</source></trans-unit>
+            <trans-unit id="modal.auth.type"><source>Authentication Type</source></trans-unit>
+            <trans-unit id="modal.auth.host"><source>Host</source></trans-unit>
+            <trans-unit id="modal.auth.header.add"><source>+ Add another header</source></trans-unit>
+            <trans-unit id="modal.auth.header.hint"><source>Each row defines one HTTP header. All headers are sent together with every request to this host.</source></trans-unit>
+            <trans-unit id="modal.auth.header.remove.title"><source>Remove this header</source></trans-unit>
+            <trans-unit id="modal.auth.header.removeLast.title"><source>Cannot remove last row</source></trans-unit>
+            <trans-unit id="modal.auth.validation.hostRequired"><source>Host is required</source></trans-unit>
+            <trans-unit id="modal.auth.validation.headerRequired"><source>At least one header name is required</source></trans-unit>
+            <trans-unit id="modal.auth.save.success"><source>Credentials for "%s" saved</source></trans-unit>
+            <trans-unit id="modal.auth.save.error"><source>Failed to save credentials</source></trans-unit>
+            <trans-unit id="modal.auth.remove.title"><source>Remove Authentication</source></trans-unit>
+            <trans-unit id="modal.auth.remove.confirm"><source>Are you sure you want to remove %s credentials for %s?</source></trans-unit>
+            <trans-unit id="modal.auth.remove.success"><source>Credentials for "%s" removed</source></trans-unit>
+            <trans-unit id="modal.auth.remove.error"><source>Failed to remove credentials</source></trans-unit>
+
+            <!-- Common modal buttons -->
+            <trans-unit id="modal.button.cancel"><source>Cancel</source></trans-unit>
+            <trans-unit id="modal.button.remove"><source>Remove</source></trans-unit>
+            <trans-unit id="modal.button.addRepo"><source>Add Repository</source></trans-unit>
+            <trans-unit id="modal.button.saveCredentials"><source>Save Credentials</source></trans-unit>
+
+            <!-- Operation dry-run / error modal -->
+            <trans-unit id="operation.dryRun.title"><source>%s %s (Dry Run Preview)</source></trans-unit>
+            <trans-unit id="operation.dryRun.confirmButton"><source>Confirm &amp; %s</source></trans-unit>
+            <trans-unit id="operation.dryRun.command"><source>Command to execute</source></trans-unit>
+            <trans-unit id="operation.dryRun.changes"><source>Changes Preview</source></trans-unit>
+            <trans-unit id="operation.dryRun.changes.empty"><source>No changes required.</source></trans-unit>
+            <trans-unit id="operation.dryRun.column.action"><source>Action</source></trans-unit>
+            <trans-unit id="operation.dryRun.column.package"><source>Package</source></trans-unit>
+            <trans-unit id="operation.dryRun.column.version"><source>Version</source></trans-unit>
+            <trans-unit id="operation.dryRun.issues"><source>Issues Found</source></trans-unit>
+            <trans-unit id="operation.dryRun.warnings"><source>Warnings</source></trans-unit>
+            <trans-unit id="operation.dryRun.mayFail"><source>The dry run indicates this operation may fail. Proceed with caution.</source></trans-unit>
+            <trans-unit id="operation.dryRun.rawOutput"><source>Show raw composer output</source></trans-unit>
+            <trans-unit id="operation.dryRun.noOutput"><source>No output</source></trans-unit>
+            <trans-unit id="operation.dryRun.errorOutput"><source>Error Output</source></trans-unit>
+            <trans-unit id="operation.error.modal.title"><source>%s Failed</source></trans-unit>
+            <trans-unit id="operation.error.modal.output"><source>Output</source></trans-unit>
+            <trans-unit id="operation.error.modal.errors"><source>Errors</source></trans-unit>
+            <trans-unit id="operation.modal.close"><source>Close</source></trans-unit>
+
+            <!-- Operation notifications -->
+            <trans-unit id="operation.progress.title"><source>In Progress</source></trans-unit>
+            <trans-unit id="operation.progress.message"><source>%sing %s...</source></trans-unit>
+            <trans-unit id="operation.success.default"><source>%s completed successfully</source></trans-unit>
+            <trans-unit id="operation.success.setupAndCache"><source>%s completed. Extension setup and cache flush successful.</source></trans-unit>
+            <trans-unit id="operation.success.setupOnly"><source>%s completed. Extension setup successful, cache flush had warnings.</source></trans-unit>
+            <trans-unit id="operation.success.setupWarn"><source>%s completed. Extension setup had warnings (check logs).</source></trans-unit>
+            <trans-unit id="operation.failure.message"><source>%s failed: %s</source></trans-unit>
+            <trans-unit id="operation.failure.unknown"><source>Unknown error</source></trans-unit>
+            <trans-unit id="operation.failure.generic"><source>%s failed</source></trans-unit>
+            <trans-unit id="operation.failure.generic.lower"><source>Failed to %s package</source></trans-unit>
+
+            <!-- Package details modal -->
+            <trans-unit id="packageDetails.title"><source>Package: %s</source></trans-unit>
+            <trans-unit id="packageDetails.name"><source>Name</source></trans-unit>
+            <trans-unit id="packageDetails.description"><source>Description</source></trans-unit>
+            <trans-unit id="packageDetails.installedVersion"><source>Installed Version</source></trans-unit>
+            <trans-unit id="packageDetails.type"><source>Type</source></trans-unit>
+            <trans-unit id="packageDetails.license"><source>License</source></trans-unit>
+            <trans-unit id="packageDetails.homepage"><source>Homepage</source></trans-unit>
+            <trans-unit id="packageDetails.source"><source>Source</source></trans-unit>
+            <trans-unit id="packageDetails.path"><source>Path</source></trans-unit>
+            <trans-unit id="packageDetails.availableVersions"><source>Available Versions</source></trans-unit>
+            <trans-unit id="packageDetails.column.version"><source>Version</source></trans-unit>
+            <trans-unit id="packageDetails.column.released"><source>Released</source></trans-unit>
+            <trans-unit id="packageDetails.badge.installed"><source>installed</source></trans-unit>
+            <trans-unit id="packageDetails.dependencies"><source>Dependencies</source></trans-unit>
+            <trans-unit id="packageDetails.button.close"><source>Close</source></trans-unit>
+            <trans-unit id="packageDetails.load.error"><source>Failed to load package details</source></trans-unit>
+        </body>
+    </file>
+</xliff>

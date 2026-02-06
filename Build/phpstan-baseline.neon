@@ -1,0 +1,61 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Construct empty\(\) is not allowed\. Use more strict comparison\.$#'
+			identifier: empty.notAllowed
+			count: 12
+			path: ../Classes/Controller/PackageManagerAjaxController.php
+
+		-
+			message: '#^Construct empty\(\) is not allowed\. Use more strict comparison\.$#'
+			identifier: empty.notAllowed
+			count: 2
+			path: ../Classes/Search/ComposerRepoSearchProvider.php
+
+		-
+			message: '#^Construct empty\(\) is not allowed\. Use more strict comparison\.$#'
+			identifier: empty.notAllowed
+			count: 1
+			path: ../Classes/Search/PathRepoSearchProvider.php
+
+		-
+			message: '#^Property Ochorocho\\PackageManager\\Search\\PathRepoSearchProvider\:\:\$logger is never read, only written\.$#'
+			identifier: property.onlyWritten
+			count: 1
+			path: ../Classes/Search/PathRepoSearchProvider.php
+
+		-
+			message: '#^Constant Ochorocho\\PackageManager\\Search\\VcsRepoSearchProvider\:\:CACHE_TTL is unused\.$#'
+			identifier: classConstant.unused
+			count: 1
+			path: ../Classes/Search/VcsRepoSearchProvider.php
+
+		-
+			message: '#^Property Ochorocho\\PackageManager\\Search\\VcsRepoSearchProvider\:\:\$cache is never read, only written\.$#'
+			identifier: property.onlyWritten
+			count: 1
+			path: ../Classes/Search/VcsRepoSearchProvider.php
+
+		-
+			message: '#^Property Ochorocho\\PackageManager\\Search\\VcsRepoSearchProvider\:\:\$logger is never read, only written\.$#'
+			identifier: property.onlyWritten
+			count: 1
+			path: ../Classes/Search/VcsRepoSearchProvider.php
+
+		-
+			message: '#^Construct empty\(\) is not allowed\. Use more strict comparison\.$#'
+			identifier: empty.notAllowed
+			count: 3
+			path: ../Classes/Service/ComposerService.php
+
+		-
+			message: '#^Offset 1 on array\{list\<string\>, list\<non\-empty\-string\>\} on left side of \?\? always exists and is not nullable\.$#'
+			identifier: nullCoalesce.offset
+			count: 1
+			path: ../Classes/Service/ComposerService.php
+
+		-
+			message: '#^Construct empty\(\) is not allowed\. Use more strict comparison\.$#'
+			identifier: empty.notAllowed
+			count: 2
+			path: ../Classes/Service/PackageProtectionService.php

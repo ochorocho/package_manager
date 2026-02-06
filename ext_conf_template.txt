@@ -1,0 +1,2 @@
+# cat=basic; type=string; label=Additional protected packages (comma-separated package names that cannot be removed)
+protectedPackages =

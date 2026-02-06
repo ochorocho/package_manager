@@ -1,0 +1,12 @@
+{
+    "name": "package-manager-e2e",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "test:e2e": "playwright test"
+    },
+    "devDependencies": {
+        "@playwright/test": "^1.49.0",
+        "@types/node": "^22.9.0"
+    }
+}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="messages" date="2024-01-01T00:00:00Z" product-name="package_manager">
+        <header/>
+        <body>
+            <trans-unit id="title" resname="title">
+                <source>Package Manager</source>
+            </trans-unit>
+            <trans-unit id="tab.packages" resname="tab.packages">
+                <source>Packages</source>
+            </trans-unit>
+            <trans-unit id="tab.composerInfo" resname="tab.composerInfo">
+                <source>Composer Info</source>
+            </trans-unit>
+            <trans-unit id="search.placeholder" resname="search.placeholder">
+                <source>Search TYPO3 extensions on Packagist...</source>
+            </trans-unit>
+            <trans-unit id="search.loading" resname="search.loading">
+                <source>Searching...</source>
+            </trans-unit>
+            <trans-unit id="search.noResults" resname="search.noResults">
+                <source>No packages found</source>
+            </trans-unit>
+            <trans-unit id="package.install" resname="package.install">
+                <source>Install</source>
+            </trans-unit>
+            <trans-unit id="package.update" resname="package.update">
+                <source>Update</source>
+            </trans-unit>
+            <trans-unit id="package.remove" resname="package.remove">
+                <source>Remove</source>
+            </trans-unit>
+            <trans-unit id="package.protected" resname="package.protected">
+                <source>Protected</source>
+            </trans-unit>
+            <trans-unit id="package.installed" resname="package.installed">
+                <source>Installed</source>
+            </trans-unit>
+            <trans-unit id="installedPackages.title" resname="installedPackages.title">
+                <source>Installed Extensions</source>
+            </trans-unit>
+            <trans-unit id="searchResults.title" resname="searchResults.title">
+                <source>Search Results</source>
+            </trans-unit>
+            <trans-unit id="dryrun.title" resname="dryrun.title">
+                <source>Dry Run Preview</source>
+            </trans-unit>
+            <trans-unit id="dryrun.running" resname="dryrun.running">
+                <source>Running dry-run...</source>
+            </trans-unit>
+            <trans-unit id="dryrun.confirm" resname="dryrun.confirm">
+                <source>Confirm &amp; Execute</source>
+            </trans-unit>
+            <trans-unit id="dryrun.cancel" resname="dryrun.cancel">
+                <source>Cancel</source>
+            </trans-unit>
+            <trans-unit id="action.executing" resname="action.executing">
+                <source>Executing...</source>
+            </trans-unit>
+            <trans-unit id="action.success" resname="action.success">
+                <source>Operation completed successfully</source>
+            </trans-unit>
+            <trans-unit id="action.failed" resname="action.failed">
+                <source>Operation failed</source>
+            </trans-unit>
+            <trans-unit id="composer.version" resname="composer.version">
+                <source>Composer Version</source>
+            </trans-unit>
+            <trans-unit id="composer.phpVersion" resname="composer.phpVersion">
+                <source>PHP Version</source>
+            </trans-unit>
+            <trans-unit id="composer.projectPath" resname="composer.projectPath">
+                <source>Project Path</source>
+            </trans-unit>
+            <trans-unit id="composer.notFound" resname="composer.notFound">
+                <source>Composer not found</source>
+            </trans-unit>
+            <trans-unit id="cache.refresh" resname="cache.refresh">
+                <source>Refresh</source>
+            </trans-unit>
+            <trans-unit id="cache.cleared" resname="cache.cleared">
+                <source>Cache cleared successfully</source>
+            </trans-unit>
+            <trans-unit id="loading" resname="loading">
+                <source>Loading...</source>
+            </trans-unit>
+            <trans-unit id="error.generic" resname="error.generic">
+                <source>An error occurred</source>
+            </trans-unit>
+            <trans-unit id="error.network" resname="error.network">
+                <source>Network error. Please try again.</source>
+            </trans-unit>
+            <trans-unit id="error.protectedPackage" resname="error.protectedPackage">
+                <source>This package is protected and cannot be removed</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

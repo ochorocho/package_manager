@@ -1,0 +1,31 @@
+# DDEV configuration for b13/db-file-storage development.
+#
+# Layout:
+#   /                      <-- the extension itself (this repo)
+#   /Build                 <-- full TYPO3 installation (composer_root)
+#   /Build/public          <-- TYPO3 web root (docroot)
+#
+# The extension is symlinked into Build/vendor/b13/db-file-storage via the
+# composer path repository defined in Build/composer.json.
+name: pm
+type: typo3
+docroot: Build/public
+composer_root: Build
+php_version: "8.3"
+webserver_type: nginx-fpm
+database:
+  type: mariadb
+  version: "10.11"
+use_dns_when_possible: true
+composer_version: "2"
+web_environment:
+  - TYPO3_CONTEXT=Development
+
+# Idempotent bootstrap: composer install + typo3 setup the first time,
+# no-op afterwards. Keeps the Build/ installation ready on every `ddev start`.
+hooks:
+  post-start:
+    - exec: bash /var/www/html/.ddev/scripts/setup-typo3.sh
+
+working_dir:
+  web: /var/www/html/Build
