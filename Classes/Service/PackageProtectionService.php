@@ -15,7 +15,7 @@ use TYPO3\CMS\Core\Configuration\ExtensionConfiguration;
 class PackageProtectionService
 {
     /**
-     * Packages that are always protected (core system packages)
+     * Packages that are always protected
      */
     private const ALWAYS_PROTECTED = [
         'typo3/cms-core',
@@ -26,6 +26,7 @@ class PackageProtectionService
         'typo3/cms-install',
         'typo3/cms-composer-installers',
         'typo3/class-alias-loader',
+        'ochorocho/package-manager',
     ];
 
     public function __construct(
