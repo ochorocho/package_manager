@@ -298,17 +298,19 @@ class ComposerService
         return $packages;
     }
 
+    private const TYPO3_PACKAGE_TYPES = ['typo3-cms-extension', 'typo3-cms-framework'];
+
     /**
-     * Get list of installed packages of type typo3-cms-extension
+     * Get all installed TYPO3 packages (extensions + framework modules).
      *
      * @return array<string, array<string, mixed>>
      */
-    public function getInstalledTypo3Extensions(): array
+    public function getInstalledTypo3Packages(): array
     {
         $allPackages = $this->getInstalledPackages();
         return array_filter(
             $allPackages,
-            fn(array $pkg): bool => ($pkg['type'] ?? '') === 'typo3-cms-extension'
+            static fn(array $pkg): bool => in_array($pkg['type'] ?? '', self::TYPO3_PACKAGE_TYPES, true)
         );
     }
 

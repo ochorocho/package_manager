@@ -129,7 +129,7 @@ export class BackendHelper {
             }
         );
         const installedTab = this.contentFrame.locator(
-            'button.nav-link:has-text("Installed Packages")'
+            'button.nav-link:has-text("Installed")'
         );
         await expect(installedTab).toBeVisible({ timeout: 20000 });
         // Always start tests from the Installed tab so per-spec beforeEach

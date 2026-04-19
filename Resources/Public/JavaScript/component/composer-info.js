@@ -101,7 +101,7 @@ export class ComposerInfoPanel extends LitElement {
                 <div class="card mb-4">
                     <div class="card-header">
                         <div class="card-icon">
-                            <typo3-backend-icon identifier="information-composer" size="small"></typo3-backend-icon>
+                            <typo3-backend-icon identifier="actions-package" size="small"></typo3-backend-icon>
                         </div>
                         <div class="card-header-body">
                             <h2 class="card-title">${labels.get('composerInfo.binary.title')}</h2>

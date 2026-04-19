@@ -33,11 +33,11 @@ test.describe('Package Manager module', () => {
         // background request so the card + first row should be on screen
         // well before the outdated call finishes.
         await expect(
-            backend.contentFrame.locator('.card-title', { hasText: /Installed Extensions/i })
+            backend.contentFrame.locator('.card-title', { hasText: /Installed Packages/i })
         ).toBeVisible({ timeout: 3000 });
 
         const rows = backend.contentFrame.locator(
-            '.card:has(.card-title:text-matches("Installed Extensions")) tbody tr'
+            '.card:has(.card-title:text-matches("Installed Packages")) tbody tr'
         );
         await expect(rows.first()).toBeVisible({ timeout: 3000 });
     });

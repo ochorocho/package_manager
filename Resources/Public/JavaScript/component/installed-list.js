@@ -112,7 +112,9 @@ export class InstalledList extends LitElement {
                 </div>
             `;
         }
-        const extensions = this.packages.filter((pkg) => pkg.type === 'typo3-cms-extension');
+        const extensions = this.packages.filter(
+            (pkg) => pkg.type === 'typo3-cms-extension' || pkg.type === 'typo3-cms-framework'
+        );
         return html`
             <div class="tab-content">
                 <div class="card">

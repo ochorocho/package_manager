@@ -49,7 +49,7 @@ class PackageManagerAjaxController
      */
     public function getInstalledPackages(ServerRequestInterface $request): ResponseInterface
     {
-        $packages = $this->composerService->getInstalledTypo3Extensions();
+        $packages = $this->composerService->getInstalledTypo3Packages();
 
         $result = [];
         foreach ($packages as $name => $package) {

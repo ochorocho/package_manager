@@ -22,9 +22,9 @@
             <!-- Installed tab -->
             <trans-unit id="installed.loading"><source>Loading installed packages...</source></trans-unit>
             <trans-unit id="installed.load.error"><source>Failed to load installed packages</source></trans-unit>
-            <trans-unit id="installed.card.title"><source>Installed Extensions</source></trans-unit>
-            <trans-unit id="installed.card.subtitle"><source>%s extensions</source></trans-unit>
-            <trans-unit id="installed.empty"><source>No TYPO3 extensions installed via Composer</source></trans-unit>
+            <trans-unit id="installed.card.title"><source>Installed Packages</source></trans-unit>
+            <trans-unit id="installed.card.subtitle"><source>%s packages</source></trans-unit>
+            <trans-unit id="installed.empty"><source>No TYPO3 packages installed via Composer</source></trans-unit>
             <trans-unit id="installed.updates.checking"><source>Checking for updates…</source></trans-unit>
             <trans-unit id="installed.updates.button"><source>Check for updates</source></trans-unit>
             <trans-unit id="installed.updates.button.title"><source>Check for updates (bypass cache)</source></trans-unit>

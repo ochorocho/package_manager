@@ -52,7 +52,6 @@ class PackagistService
 
         $params = [
             'q' => $query,
-            'type' => 'typo3-cms-extension',
             'per_page' => self::PER_PAGE,
             'page' => max(1, $page),
         ];
